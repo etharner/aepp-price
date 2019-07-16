@@ -12,7 +12,7 @@ const getPrices = async () => {
   ).then(r => r.json());
 };
 
-setInterval(getPrices, 600000);
+setInterval(getPrices, 60000);
 getPrices();
 
 const app = express();
