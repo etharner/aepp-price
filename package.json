@@ -1,0 +1,14 @@
+{
+  "name": "aepp-price",
+  "version": "0.1.0",
+  "description": "AE price API server",
+  "author": "Dmitry Kostin <etharner@gmail.com>",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.16.1",
+    "node-fetch": "^2.6.0"
+  }
+}
