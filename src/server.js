@@ -16,7 +16,7 @@ setInterval(getPrices, 60000);
 getPrices();
 
 const app = express();
-app.get('/price', (req, res) => {
+app.get('/', (req, res) => {
   res.send(prices);
 });
 
